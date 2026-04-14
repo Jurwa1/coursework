@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="5OspOKgYv-RYjdy8W2cH">
-    <mxGraphModel dx="816" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1352" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JRiwJxNWcLkr07ZmtcQk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="бронирование билета на рейс" vertex="1">
+        <mxCell id="JRiwJxNWcLkr07ZmtcQk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="покупка билета на рейс" vertex="1">
           <mxGeometry height="160" width="340" x="400" y="360" as="geometry" />
         </mxCell>
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -22,7 +22,7 @@
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="запрос клиента" vertex="1">
           <mxGeometry height="30" width="60" x="240" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="JRiwJxNWcLkr07ZmtcQk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="платежные данные" vertex="1">
+        <mxCell id="JRiwJxNWcLkr07ZmtcQk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="данные о клиенте" vertex="1">
           <mxGeometry height="30" width="60" x="240" y="450" as="geometry" />
         </mxCell>
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -63,21 +63,21 @@
         </mxCell>
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="490" y="520" as="sourcePoint" />
-            <mxPoint x="490" y="640" as="targetPoint" />
+            <mxPoint x="474" y="520" as="sourcePoint" />
+            <mxPoint x="474" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="640" y="520" as="sourcePoint" />
-            <mxPoint x="640" y="640" as="targetPoint" />
+            <mxPoint x="660" y="520" as="sourcePoint" />
+            <mxPoint x="660" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JRiwJxNWcLkr07ZmtcQk-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="система бронирования" vertex="1">
-          <mxGeometry height="30" width="60" x="460" y="640" as="geometry" />
+        <mxCell id="JRiwJxNWcLkr07ZmtcQk-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сотрудник кассы" vertex="1">
+          <mxGeometry height="30" width="60" x="444" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="JRiwJxNWcLkr07ZmtcQk-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="платежная система" vertex="1">
-          <mxGeometry height="30" width="60" x="610" y="640" as="geometry" />
+        <mxCell id="JRiwJxNWcLkr07ZmtcQk-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Клиент" vertex="1">
+          <mxGeometry height="30" width="60" x="630" y="640" as="geometry" />
         </mxCell>
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -96,6 +96,15 @@
         </mxCell>
         <mxCell id="JRiwJxNWcLkr07ZmtcQk-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="билет на рейс" vertex="1">
           <mxGeometry height="30" width="60" x="850" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZXImZZz7x2AkTO3hnUKR-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="569.5" y="520" as="sourcePoint" />
+            <mxPoint x="569.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZXImZZz7x2AkTO3hnUKR-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="бумажная ведомость" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
